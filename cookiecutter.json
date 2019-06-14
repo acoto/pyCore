@@ -5,6 +5,7 @@
     "version": "0.1.0",
   "_copy_without_render": [
         "*.html",
-        "*.js","*.css"
+        "*.js","*.css",
+    "*jsandcss"
   ]
 }
