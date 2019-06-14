@@ -98,7 +98,7 @@ class BaseExtension(ext.Extension):
     """
     Base class for creating custom jinja2 tags.
     parse expects a tag of the format
-    {% tag_name args, kw %}
+    example:  tag_name args, kw
     after parsing it will call _call(args, kw) which must be defined.
 
     This code is based on CKAN
