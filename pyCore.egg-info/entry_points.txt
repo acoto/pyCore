@@ -1,6 +1,0 @@
-[console_scripts]
-initialize_pyCore_db = pyCore.scripts.initialize_db:main
-
-[paste.app_factory]
-main = pyCore:main
-
