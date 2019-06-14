@@ -2,6 +2,5 @@
     "full_name": "Project owner",
     "email": "your e-mail",
     "repo_name": "test_name",
-    "version": "0.1.0",
-  "file": "{{ file }}"
+    "version": "0.1.0"
 }

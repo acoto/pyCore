@@ -24,9 +24,9 @@ def initialize(path_to_templates):
 def render_resource(request, library_name, resource_type, resource_id):
     if resource_type == "JS" or resource_type == "CSS":
         if resource_type == "CSS":
-            html = '<link href="{{ file }}" rel="stylesheet">'
+            html = '<link href="{% raw %}{{ file }}{% endraw %}" rel="stylesheet">'
         else:
-            html = '<script src="{{ file }}"></script>'
+            html = '<script src="{% raw %}{{ file }}{% endraw %}"></script>'
         resources = r.need(library_name, resource_id, resource_type)
         resources_to_include = []
         for resource in resources:

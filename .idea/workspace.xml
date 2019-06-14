@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38060551-7d89-426f-9880-15201f186119" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cookiecutter.json" beforeDir="false" afterPath="$PROJECT_DIR$/cookiecutter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cookiecutter.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="288">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -158,8 +159,8 @@
         <option value="$PROJECT_DIR$/pyCore/config/routes.py" />
         <option value="$PROJECT_DIR$/pyCore/alembic/env.py" />
         <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/plugins/core.py" />
-        <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py" />
         <option value="$PROJECT_DIR$/cookiecutter.json" />
+        <option value="$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py" />
       </list>
     </option>
   </component>
@@ -542,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/plugins/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#177#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/plugins/interfaces.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -588,20 +579,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py">
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/plugins/helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="121">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#177#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cookiecutter.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/{{cookiecutter.repo_name}}/config/jinja_extensions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
