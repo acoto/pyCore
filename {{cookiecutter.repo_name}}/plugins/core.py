@@ -22,10 +22,10 @@ __all__ = [
 ]
 
 # Entry point group.
-PLUGINS_ENTRY_POINT_GROUP = 'stock.plugins'
+PLUGINS_ENTRY_POINT_GROUP = '{{cookiecutter.repo_name}}.plugins'
 
 # Entry point for test plugins.
-TEST_PLUGINS_ENTRY_POINT_GROUP = 'stock.test_plugins'
+TEST_PLUGINS_ENTRY_POINT_GROUP = '{{cookiecutter.repo_name}}.test_plugins'
 
 GROUPS = [
     PLUGINS_ENTRY_POINT_GROUP,
