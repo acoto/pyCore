@@ -1,0 +1,40 @@
+{% extends 'base.jinja2' %}
+
+{% block css %}
+    {% cssresource request,'stock','style' %}
+{% endblock css %}
+
+{% block body_tag %}
+    <body {% block bodyattributes %}{% endblock bodyattributes %} class="{% if rtl %}rtls{% endif %} {% block bodyclass %} top-navigation {% endblock bodyclass %}">
+    {% block body %}
+        {% block bodycontent %}
+            <div id="wrapper">
+                {% block wrapper %}
+                    <div id="page-wrapper" class="gray-bg">
+                        {% block pagewrapper %}
+                            <div class="container">
+                            {% block pageheader %}
+
+                            {% endblock pageheader %}
+                            {% block mainsection %}
+                                <div style="padding: 0px; margin-top: 10px; margin-left: -15px; margin-right: -15px" class="wrapper wrapper-content">
+                                    {% block maincontent %}
+                                        {# Here goes the content of the page #}
+                                    {% endblock maincontent %}
+                                </div>
+                            {% endblock mainsection %}
+                            {% block footer %}
+{#                                {% include 'dashboard/snippets/footer.jinja2' %}#}
+                            {% endblock footer %}
+                            </div>
+                        {% endblock pagewrapper %}
+                    </div>
+                {% endblock wrapper %}
+            </div>
+        {% endblock bodycontent %}
+        {% block scripts %}
+            {% jsresource request,'stock','inspinia' %}
+        {% endblock scripts %}
+    {% endblock body %}
+    </body>
+{% endblock body_tag %}

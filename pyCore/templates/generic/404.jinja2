@@ -1,0 +1,23 @@
+{% extends 'base.jinja2' %}
+
+{% block titlesection %}{{ _('Page not found') }}{% endblock titlesection %}
+
+{% block css %}
+    {% cssresource request,'stock','style' %}
+{% endblock css %}
+
+{% block bodyclass %}gray-bg{% endblock bodyclass %}
+
+{% block body %}
+    {% block error_message %}
+        <div class="middle-box text-center animated fadeInDown">
+            <h1>404</h1>
+            <h3 class="font-bold">{{ _('Page Not Found') }}</h3>
+
+            <div class="error-desc">
+                {{ _('Sorry, but the page you are looking for has not been found. Try checking the URL for errors.') }}
+            </div>
+        </div>
+    {% endblock error_message %}
+    {% jsresource request,'stock','bootstrap' %}
+{% endblock body %}
