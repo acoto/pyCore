@@ -2,5 +2,9 @@
     "full_name": "Project owner",
     "email": "your e-mail",
     "repo_name": "test_name",
-    "version": "0.1.0"
+    "version": "0.1.0",
+  "_copy_without_render": [
+        "*.html",
+        "*.js","*.css"
+  ]
 }
